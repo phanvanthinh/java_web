@@ -22,10 +22,6 @@ public class AbstractDTO<T> implements Serializable {
     private Integer limit;
     private Integer totalPage;
     private Integer totalItem;
-    
-    
-    
-    private Integer totalItem1;
 
     public Long getId() {
         return id;
